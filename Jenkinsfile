@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/sandlzih'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/sandlizh/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('sandlzih-225')                                                         //<------change this
+        KUBECONFIG = credentials('sandlizh-225')                                                         //<------change this
     }
 
     stages {
